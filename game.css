@@ -1,0 +1,168 @@
+.game-field {
+    background-color: #b7aca0;
+    table-layout: fixed;
+    width: 100px;
+    height: 100px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 5px;
+}
+
+.game-panel {
+    background-color: #ffa500;
+    table-layout: fixed;
+    width: 100px;
+    height: 100px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 5px;
+}
+
+.game-cell {
+    margin: 2px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    font-family: Helvetica, Arial;
+    color: #746d65;
+    border-radius: 5px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.cell-0 {
+    background-color: #cabfb3;
+}
+
+.cell-2 {
+    background-color: #7B68EE;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.cell-2:before {
+  content: "2";
+}
+
+.cell-4 {
+    background-color: #00BFFF;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.cell-4:before {
+  content: "4";
+}
+
+.cell-8 {
+    background-color: #ADD8E6;
+    font-size: 60px;
+}
+.cell-8:before {
+  content: "8";
+}
+
+.cell-16 {
+    background-color: #7FFFD4;
+    font-size: 60px;
+}
+.cell-16:before {
+  content: "16";
+}
+
+.cell-32 {
+    background-color: #00FF7F;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.cell-32:before {
+  content: "32";
+}
+
+.cell-64 {
+    background-color: #FFFF00;
+    font-size: 60px;
+}
+.cell-64:before {
+  content: "64";
+}
+
+.cell-128 {
+    background-color: #FFA500;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.cell-128:before {
+  content: "128";
+}
+
+.cell-256 {
+    background-color: #FFB6C1;
+    font-size: 48px;
+}
+.cell-256:before {
+    content: "256";
+}
+
+.cell-512 {
+    background-color: #EE82EE;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.cell-512:before {
+  content: "512";
+}
+
+.cell-1024 {
+    background-color: #BA55D3;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.cell-1024:before {
+  content: "1024";
+}
+
+.cell-2048 {
+    background-color: #A020F0;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.cell-2048:before {
+  content: "2048";
+}
+
+.cell-4096 {
+    background-color: #A0F0F0;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.cell-4096:before {
+  content: "4096";
+}
+
+.cell-8192 {
+    background-color: #0020F0;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.cell-8192:before {
+  content: "8192";
+}
+
+.game-score {
+    margin: 2px;
+    overflow: hidden;
+    font-family: Helvetica, Arial;
+    color: #F00FFF;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 320px;
+    /*border-collapse: separate;*/
+    border-spacing: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
