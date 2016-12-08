@@ -32,7 +32,6 @@ var gui = {
     },
 
     make_viewport : function(game) {
-        //console.log('fuck');
         return this.make_panel(game) + this.make_game_field(game);
     },
 

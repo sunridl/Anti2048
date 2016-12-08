@@ -7,7 +7,6 @@
     font-family: Futura, Helvetica, Arial;
     text-align: center;
     color: #746d65;
-    /*background-color: #cabfb3;*/
     height: 45px;
     line-height: 45px;
     font-size: 28px;
@@ -23,7 +22,6 @@
     font-family: Helvetica, Arial;
     height: 40px;
     line-height: 40px;
-    /*border-collapse: separate;*/
     border-spacing: 10px;
     border-radius: 5px;
     font-size: 28px;
@@ -67,7 +65,6 @@
     font-family: Futura, Helvetica, Arial;
     text-align: center;
     color: #746d65;
-    /*background-color: #cabfb3;*/
     width: 420px;
     font-size: 28px;
     user-select: none;
