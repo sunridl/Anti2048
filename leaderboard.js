@@ -64,20 +64,4 @@ var leaderboard = {
            }
         }
     },
-
-
 };
-/*
-leaderboard.field1 = ...
-leaderboard.field2[3] = ...
-
-leaderboard.addToTable(...)
-
-{
-    'player': 'SunRidl',
-    'score': 1500
-}
-
-v[5] = { 'player': 'SunRidl', 'score': 1500 }
-v[5]
-*/

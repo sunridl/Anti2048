@@ -99,14 +99,14 @@ var keyboard_input_handler = function(e) {
             console.log('game over');
         }
     }
-    if (key == 78 || key == 100) {
+    if (key == 78 || key == 100) { // n
         var row = Math.floor(Math.random() * 4);
         var col = Math.floor(Math.random() * 4);
 
         game.game_step(row, col);
     }
 
-    if (key == 73 || key == 95) {
+    if (key == 73 || key == 95) { // i
         while (game.state != 'game over') {
             var row = Math.floor(Math.random() * 4);
             var col = Math.floor(Math.random() * 4);
